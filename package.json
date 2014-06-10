@@ -1,6 +1,6 @@
 {
   "name": "quiet-grunt",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Limit grunt output to dots if everything goes well. On error print dump everything.",
   "main": "index.js",
   "scripts": {

@@ -26,6 +26,8 @@ module.exports = function (grunt) {
 ...
 ```
 
+To skip plugin and use the default reporting, use command line argument `--no-quiet`
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2014

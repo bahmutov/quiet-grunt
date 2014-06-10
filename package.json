@@ -1,0 +1,25 @@
+{
+  "name": "quiet-grunt",
+  "version": "0.0.0",
+  "description": "Limit grunt output to dots if everything goes well. On error print dump everything.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bahmutov/quiet-grunt.git"
+  },
+  "keywords": [
+    "grunt",
+    "logging",
+    "quiet",
+    "reporter"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/quiet-grunt/issues"
+  },
+  "homepage": "https://github.com/bahmutov/quiet-grunt"
+}

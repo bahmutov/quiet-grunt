@@ -27,6 +27,8 @@ module.exports = function (grunt) {
 
 To skip plugin and use the default reporting, use command line argument `--no-quiet`
 
+Inspired by [time-grunt](https://github.com/sindresorhus/time-grunt)
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2014

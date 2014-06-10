@@ -4,7 +4,6 @@
 
 [![NPM info][nodei.co]](https://npmjs.org/package/quiet-grunt)
 
-[![Build status][ci-image]][ci-url]
 [![dependencies][dependencies-image]][dependencies-url]
 [![endorse][endorse-image]][endorse-url]
 

@@ -1,5 +1,9 @@
 var noQuiet = process.argv.some(function (arg) {
-  return arg === '--no-quiet' || arg === '--noq';
+  return arg === '--no-quiet' ||
+    arg === '--noq' ||
+    arg === 'watch' ||
+    arg === '--verbose' ||
+    arg === '-v';
 });
 
 if (!noQuiet) {

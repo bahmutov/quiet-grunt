@@ -2,7 +2,7 @@ var noQuiet = process.argv.some(function (arg) {
   return arg === '--no-quiet' || arg === '--noq';
 });
 
-if (noQuiet) {
+if (!noQuiet) {
   var originalWrite = process.stdout.write.bind(process.stdout);
 
   var output = '';

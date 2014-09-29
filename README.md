@@ -27,6 +27,13 @@ module.exports = function (grunt) {
 
 To skip plugin and use the default reporting, use command line argument `--no-quiet`
 
+If you want to have ability to make grunt silent but not as default behavior use next trick
+```
+if (grunt.option('q') || grunt.option('quiet')) {
+    require('quiet-grunt');
+}
+```
+
 Inspired by [time-grunt](https://github.com/sindresorhus/time-grunt)
 
 ## Small print
